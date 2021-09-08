@@ -3,9 +3,9 @@ node {
         bat "gradle clean"
     }
     stage('Build') {
-        bat "gardle build"
+        bat "gradle build"
     }
     stage('Test') {
-        bat "gardle test"
+        bat "gradle test"
     }
 }
