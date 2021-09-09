@@ -1,7 +1,8 @@
 node {
     stage('Build') {
             sh "pwd"
-            sh "./gradle build"  
+            sh "chmod +x gradlew"
+            sh "./gradlew build"  
     }  
 }
     
