@@ -1,11 +1,11 @@
 node {
     stage('Clean') {
-        bat "gradle clean"
+        sh "gradle clean"
     }
     stage('Build') {
-        bat "gradle build"
+        sh "gradle build"
     }
     stage('Test') {
-        bat "gradle test"
+        sh "gradle test"
     }
 }
