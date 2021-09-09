@@ -1,11 +1,6 @@
-pipeline {
-    agent any 
-    stages {
-        stage('Clean') {
-            steps {
-                sh "gradle clean"
-            }
-        }
-    }
+node {
+    stage('Clean') {
+         sh "gradle clean"
+    }  
 }
     
