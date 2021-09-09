@@ -1,5 +1,5 @@
 node {
     stage('build') {
-        sh './gradle build'
+        sh 'gradle build'
     }
 }
