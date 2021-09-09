@@ -1,6 +1,6 @@
 node {
     stage('Build') {     
-        bash "gradle build"
+        sh "gradle build"
     }  
 }
     
