@@ -1,5 +1,5 @@
 node {
     stage('Clean') {
-        shell 'gradle clean'
+        shell './gradle clean'
     }
 }
