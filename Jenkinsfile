@@ -1,5 +1,10 @@
-node {
-    stage('build') {
-        sh 'gradle build'
+pipeline {
+    agent any {
+        stages {
+            stage('build') {
+                sh 'gradle build'
+            }
+        }
     }
 }
+    
