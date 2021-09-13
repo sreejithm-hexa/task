@@ -33,10 +33,10 @@ version = '1.0'
 description = 'works-with-heroku'
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
-publishing {
+/*publishing {
     publications {
         maven(MavenPublication) {
             from(components.java)
         }
-    }
+    }*/
 }
