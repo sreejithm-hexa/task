@@ -6,9 +6,7 @@
 
 plugins {
     id 'java'
-    id 'maven-publish'
     id 'war'
-    id 'base'
     id 'groovy'
 }
 
