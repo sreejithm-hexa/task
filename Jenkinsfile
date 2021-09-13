@@ -1,7 +1,7 @@
 node {
     stage('Build') {
             sh "pwd"  
-            sh "gradlew build"
+            sh "gradle build"
     }  
 }
     
