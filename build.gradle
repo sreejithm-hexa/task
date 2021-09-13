@@ -24,6 +24,11 @@ dependencies {
     providedCompile 'javax.servlet:servlet-api:2.5'
 }
 
+application {
+    // Define the main class for the application.
+    mainClassName = 'simple.gradle.java.app.App'
+}
+
 group = 'works.buddy.samples'
 version = '1.0'
 description = 'works-with-heroku'
