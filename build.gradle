@@ -3,12 +3,12 @@
  */
  
  apply plugin:'base'
-
+ apply plugin:'war'
+ apply plugin:'groovy'
+ apply plugin:'application'
+ 
 plugins {
     id 'java'
-    id 'war'
-    id 'groovy'
-    id 'application'
 }
 
 repositories {
