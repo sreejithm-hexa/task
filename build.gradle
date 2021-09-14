@@ -6,6 +6,8 @@ plugins {
     id 'base'
     id 'java'
     id 'application'
+    id 'groovy'
+    id 'war'
 }
 
 test {
