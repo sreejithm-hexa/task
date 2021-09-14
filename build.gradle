@@ -10,6 +10,11 @@ plugins {
     id 'application'
 }
 
+test {
+    // Use junit platform for unit tests
+    useJUnitPlatform()
+}
+
 repositories {
     mavenLocal()
     maven {
