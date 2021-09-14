@@ -33,7 +33,7 @@ application {
 
 group = 'works.buddy.samples'
 version = '1.0'
-description = 'works-with-heroku'
+//description = 'works-with-heroku'
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 /*publishing {
