@@ -3,9 +3,8 @@
  */
   
 plugins {
-    id 'java'
     id 'base'
-    id 'groovy'
+    id 'java'
     id 'application'
 }
 
